@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "ngle-app",
-    "slug": "ngle-app",
-    "version": "1.0.0",
+    "name": "세신 유통",
+    "slug": "sesin-app",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,22 +15,35 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.sesin.ios",
+      "buildNumber": "1.0.1",
+      "supportsTablet": false,
+      "config" : {
+        "usesNonExemptEncryption" : false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.shiquanj.ngleapp"
+      "versionCode":"2",
+      "package": "com.sesin.android"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "212cfa18-3446-415a-adc2-855252ff3ffd"
-      }
+        "projectId": "2ba3e211-f9c0-4d5c-a03f-4316716afe41"
+      },
+      "sdkVersion": "48.0.0"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2ba3e211-f9c0-4d5c-a03f-4316716afe41"
     }
   }
 }
