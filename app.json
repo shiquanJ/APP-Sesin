@@ -2,7 +2,7 @@
   "expo": {
     "name": "세신 유통",
     "slug": "sesin-app",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -27,7 +27,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "versionCode":"2",
+      "versionCode":"3",
       "package": "com.sesin.android"
     },
     "web": {
