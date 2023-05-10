@@ -10,40 +10,40 @@
 - eas submit -p ios
 
 apk: eas build -p android --profile preview  
-"build": {
-    "preview": {
-      "android": {
-        "buildType": "apk"
-      }
-    },
-    "preview2": {
-      "android": {
-        "gradleCommand": ":app:assembleRelease"
-      }
-    },
-    "preview3": {
-      "developmentClient": true
-    },
-    "production": {}
-  } 
-aab: eas build --platform android
-"build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m-medium"
-      }
-    },
-    "preview": {
-      "distribution": "internal",
-      "ios": {
-        "resourceClass": "m-medium"
-      }
-    },
-    "production": {
-      "ios": {
-        "resourceClass": "m-medium"
-      }
-    }
-  }
+  "build": {  
+    "preview": {  
+      "android": {  
+        "buildType": "apk"  
+      }  
+    },  
+    "preview2": {  
+      "android": {  
+        "gradleCommand": ":app:assembleRelease"  
+      }  
+    },  
+    "preview3": {  
+      "developmentClient": true  
+    },  
+    "production": {}  
+  }   
+aab: eas build --platform android  
+"build": {  
+    "development": {  
+      "developmentClient": true,  
+      "distribution": "internal",  
+      "ios": {  
+        "resourceClass": "m-medium"  
+      }  
+    },  
+    "preview": {  
+      "distribution": "internal",  
+      "ios": {  
+        "resourceClass": "m-medium"  
+      }  
+    },  
+    "production": {  
+      "ios": {  
+        "resourceClass": "m-medium"  
+      }  
+    }  
+  }  
