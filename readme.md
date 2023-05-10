@@ -9,7 +9,7 @@
 - eas build --platform ios (.ipa)
 - eas submit -p ios
 
-apk: eas build -p android --profile preview
+apk: eas build -p android --profile preview  
 "build": {
     "preview": {
       "android": {
