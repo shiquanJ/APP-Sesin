@@ -11,11 +11,11 @@
 
 apk: eas build -p android --profile preview  
   "build": {  
-    "preview": {  
-      "android": {  
-        "buildType": "apk"  
-      }  
-    },  
+      "preview": {  
+        "android": {  
+          "buildType": "apk"  
+        }  
+      },  
     "preview2": {  
       "android": {  
         "gradleCommand": ":app:assembleRelease"  
